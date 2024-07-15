@@ -1,0 +1,7 @@
+Version 0.7.0 (Unified WA4 Project):
+
+- Added changelog feature
+- Added tutorial
+- Added SFX
+- Added a death screen and return to menu
+- Fixed some bugs
