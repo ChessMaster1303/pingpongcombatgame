@@ -1,7 +1,7 @@
 import { Server } from "socket.io";
 
 //create http server forwarding network traffic to socketio server
-const io = new Server(10000, {
+const io = new Server(80, {
     cors: {
         origin: "*",
     },
