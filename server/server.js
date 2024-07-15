@@ -1,3 +1,5 @@
+const port = process.env.PORT || 0000
+
 import { Server } from "socket.io";
 
 //create http server forwarding network traffic to socketio server
