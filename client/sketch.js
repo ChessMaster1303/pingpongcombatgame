@@ -590,7 +590,8 @@ function mouseClicked() {
 
 		//Clicking the "Enter Game" will establish the connection with server and start the game
 		if (mouseX > width / 3 && mouseX < width * 2 / 3 && mouseY > height * 2 / 4 && mouseY < height * 3 / 4) {
-			socket = io.connect("ws://localhost:8001");
+			//Attempt to ping render web service
+			socket = io.connect("52.41.36.82");
 			gameMusic.play()
 
 			//fullscreen(true)
