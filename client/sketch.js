@@ -594,7 +594,7 @@ function mouseClicked() {
 			socket = io.connect("wss://pingpongcombatgame-server.onrender.com");
 			gameMusic.play()
 
-			//fullscreen(true)
+			fullscreen(true)
 
 			//Send username to the server
 			listenUserName = false
