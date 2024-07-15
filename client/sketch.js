@@ -591,7 +591,7 @@ function mouseClicked() {
 		//Clicking the "Enter Game" will establish the connection with server and start the game
 		if (mouseX > width / 3 && mouseX < width * 2 / 3 && mouseY > height * 2 / 4 && mouseY < height * 3 / 4) {
 			//Attempt to ping render web service
-			socket = io.connect("wss://pingpongcombatgame.onrender.com");
+			socket = io.connect("ws://pingpongcombatgame.onrender.com");
 			gameMusic.play()
 
 			//fullscreen(true)
